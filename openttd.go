@@ -45,9 +45,9 @@ func startOpenTTD() {
 			if strings.HasPrefix(line, "*** ") {
 				client.SendMsg(ctx, channelID, line)
 			} else if !strings.Contains(line, "[Discord]") {
-				if strings.HasPrefix(line, "[All] ") {
+				if strings.HasPrefix(line, config.ChatPrefix) {
 					splited := strings.Split(line, ":")
-					user := strings.Replace(splited[0], "[All] ", "", 1)
+					user := strings.Replace(splited[0], config.ChatPrefix, "", 1)
 					if user == "" {
 						user = "Server"
 					}

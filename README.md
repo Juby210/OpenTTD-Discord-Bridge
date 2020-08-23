@@ -4,6 +4,7 @@ Bridge discord & OpenTTD chat. You can also check openttd server stats (includin
 ### Config
 - **OpenTTD** - openttd file path (for linux/freebsd leave only `openttd`)
 - **Args** - optional server args (eg save file `["-g", "save.sav"]`)
+- **ChatPrefix** - openttd chat prefix - for support other locales than english
 - **Token** - discord bot token
 - **ChannelID** - discord channel id to bridge chat
 - **Prefix** - discord bot prefix

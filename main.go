@@ -8,8 +8,9 @@ import (
 )
 
 type cfg struct {
-	OpenTTD, Token, ChannelID, Prefix string
-	Args, Admins                      []string
+	OpenTTD, ChatPrefix, Token, ChannelID, Prefix string
+
+	Args, Admins []string
 }
 
 var (

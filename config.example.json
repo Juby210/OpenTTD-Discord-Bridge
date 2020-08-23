@@ -1,6 +1,7 @@
 {
     "OpenTTD": "openttd",
     "Args": [],
+    "ChatPrefix": "[All] ",
     "Token": "",
     "ChannelID": "",
     "Prefix": "ttd!",
